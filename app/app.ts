@@ -8,11 +8,7 @@ import config from "./config/config";
 
 // --- Server Setup ---
 const httpServer = createServer();
-const io = new Server(httpServer, {
-  cors: {
-    origin: config.cors.origin,
-  },
-});
+const io = new Server(httpServer);
 
 const PORT = config.port;
 

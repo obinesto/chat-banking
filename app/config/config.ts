@@ -6,9 +6,6 @@ const config = {
   mongo: {
     uri: process.env.MONGODB_URI,
   },
-  cors: {
-    origin: process.env.CORS_ORIGIN || "*",
-  },
 };
 
 export default config;

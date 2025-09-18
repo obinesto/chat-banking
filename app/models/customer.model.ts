@@ -20,7 +20,7 @@ const CustomerSchema: Schema = new Schema({
   bvn: { type: String },
   pin: { type: String },
   accountNumber: { type: String },
-  walletBalance: { type: Number, default: 0.0 },
+  walletBalance: { type: Number, default: 0.00 },
   tier: { type: Number, default: 1 },
   conversationState: {
     type: String,
